@@ -1,0 +1,26 @@
+@media screen and (max-width: 900px) {
+  label{
+    display: block;
+  }
+  .form_input{
+    width: 12rem;
+  }
+  .subcontainer{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    
+  }
+  .container{
+    min-width: 90vw;
+  }
+  .personContainer{
+    min-width: 90vw;
+    margin-bottom: 2rem;
+  }
+
+}
+
+.personContainer{
+    margin-bottom: 2rem 0rem;
+}
