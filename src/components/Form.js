@@ -87,9 +87,9 @@ const Form = () => {
           const { firstName, lastName, email, phoneNo } = person;
           return (
             <div className="person" key={phoneNo}>
-              <h1>Name : {firstName + " " + lastName}</h1>
-              <h3>Email : {email}</h3>
-              <h4>Contact No : +91{phoneNo}</h4>
+              <h3>Name : {firstName + " " + lastName}</h3>
+              <p>Email : {email}</p>
+              <p>Contact No : +91{phoneNo}</p>
             </div>
           );
         })}
